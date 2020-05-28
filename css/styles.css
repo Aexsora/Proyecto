@@ -1,0 +1,269 @@
+/*Reiniciar*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Estilo Menu*/
+html, body{
+  font-family: 'Segoe UI', tahoma, geneca, verdana, sans-serif;
+  line-height: 1.7em;
+}
+a{
+  color: #333;
+  text-decoration: none;
+}
+h1,h2,h3 {
+  padding-bottom: 20px;
+}
+p {
+  margin-bottom: 10px;
+}
+/*Clases General*/
+/*container mantendra el contenido centrao con un maximo de ancho*/
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+.container li ul {
+  display: none;
+  position: absolute;
+  min-width: inherit;
+}
+.container li:hover > ul{
+  display: block;
+  background-color: #6E6E6E;
+}
+.text-primary {
+  color:#A4A4A4;
+}
+.text-primary1 {
+  color:#5BBF21;
+}
+.lead {
+  font-size: 20px;
+}
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #6E6E6E;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn1 {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #6E6E6E;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #fff;
+  color: #000000;
+}
+.btn-light {
+  background: #A4A4A4;
+  color: #fff;
+}
+
+.bg-dark {
+  background: #585858;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #2E2E2E;
+}
+
+.bg-primary {
+  background: #5BBF21;
+  color: #215b33;
+  font-size: 10px;
+}
+
+.clr {
+  clear: both;
+}
+.l-heading {
+  font-size: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+.l-heading1 {
+  font-size: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+/* Padding */
+
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+/*Navbar*/
+#navbar{
+  background: #6E6E6E;
+  color: #fff;
+  overflow: auto;
+}
+#navbar a{
+  color: #fff;
+}
+#navbar h1{
+  float: left;
+  padding-top: 20px;
+}
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+  border-color: #3d8e33;
+  background: #f4f4f4;
+  color: #000000;
+}
+
+#welcome {
+  background: url('../imagenes/pug1.jpg') no-repeat center center/cover;
+  height: 600px;
+}
+#welcome .welcome-content {
+  color: #fff;
+  text-align: justify;
+  padding-top: 170px;
+}
+
+#welcome .welcome-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#welcome .welcome-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+#welcome .container {
+  overflow: hidden !important;
+}
+/*Informacion Principal*/
+#home-info{
+  height: 350px;
+}
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 85%;
+  text-align: justify;
+  padding: 40px 30px;
+  overflow: hidden;
+}
+#home-info .info-content1 {
+  float: left;
+  width: 50%;
+  height: 85%;
+  text-align: center;
+  padding: 40px 30px;
+  overflow: hidden;
+}
+#home-info .info-content p{
+  padding-bottom: 30px;
+}
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+.box1 {
+  float: center;
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Acerca de */
+
+#about-info .info-right {
+  float: right;
+  width: 40%;
+  min-height: 40%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* Forma de Contacto */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #848484;
+}
+
+/* Pie de página */
+
+#main-footer {
+  text-align: center;
+  background: #A4A4A4;
+  color: #2E2E2E;
+  padding: 2px;
+}
+
+.img img{
+  background-image: url('imagenes/fondocroquetas2.jpg');
+ opacity:0.2;
+ filter:alpha(opacity=20); /* For IE8 and earlier */
+}
